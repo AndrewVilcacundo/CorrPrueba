@@ -80,20 +80,20 @@
           <text value="Boton buscar por codigo"/>
         </properties>
       </component>
-      <component id="44725" class="javax.swing.JButton" binding="bucarPorNombreButton">
+      <component id="44725" class="javax.swing.JButton" binding="bucarPorCedulaButton">
         <constraints>
           <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Boton buscar por nombre"/>
+          <text value="Boton buscar por cedula"/>
         </properties>
       </component>
-      <component id="5d683" class="javax.swing.JButton" binding="buscarPorSignoButton">
+      <component id="5d683" class="javax.swing.JButton" binding="buscarPorNombreButton">
         <constraints>
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Boton buscar por signo"/>
+          <text value="Boton buscar por nombre"/>
         </properties>
       </component>
       <component id="e54e2" class="javax.swing.JButton" binding="actualizarButton">

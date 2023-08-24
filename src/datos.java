@@ -13,16 +13,16 @@ public class datos {
     private JButton ingresarButton;
     private JButton limpiarFormularioButton;
     private JButton buscarPorCodigoButton;
-    private JButton bucarPorNombreButton;
-    private JButton buscarPorSignoButton;
+    private JButton bucarPorCedulaButton;
+    private JButton buscarPorNombreButton;
     private JComboBox sig;
     private JPanel datos;
 
     //Conectar a la base de datos MYSQL WORKBENCH
-    static final String DB_URL="jdbc:mysql://localhost/prueba";
+    static final String DB_URL="jdbc:mysql://localhost/PRUEBA1";
     static final String USER="root";
-    static final String PASS="root_bas3";
-    static final String QUERY="Select * From datos ;";
+    static final String PASS="";
+    static final String QUERY="Select * From DATOS1;";
     private boolean data = false;
 
 
@@ -104,19 +104,19 @@ public class datos {
                 }
             }
         });
-        bucarPorNombreButton.addActionListener(new ActionListener() {
+        bucarPorCedulaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                persona.setNombre(nombre.getText());
+                persona.setCedula(cedula.getText());
                 try(
                         Connection conn = DriverManager.getConnection(DB_URL,USER,PASS);
                         Statement stat = conn.createStatement();
                         ResultSet rc = stat.executeQuery(QUERY);
                 ){
                     while(rc.next()) {
-                        if (persona.getNombre().equals(rc.getString("Nombre"))) {
+                        if (persona.getCedula().equals(rc.getString("Cedula"))) {
+                            nombre.setText(rc.getString("Nombre"));
                             codigo.setText(rc.getString("codigo"));
-                            cedula.setText(rc.getString("cedula"));
                             fecha.setText(rc.getString("FechaN"));
                             sig.setSelectedItem(rc.getString("Signo"));
                             data = false;
@@ -135,21 +135,21 @@ public class datos {
                 }
             }
         });
-        buscarPorSignoButton.addActionListener(new ActionListener() {
+        buscarPorNombreButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                persona.setSigno((String) sig.getSelectedItem());
+                persona.setNombre(nombre.getText());
                 try(
                         Connection conn = DriverManager.getConnection(DB_URL,USER,PASS);
                         Statement stat = conn.createStatement();
                         ResultSet rc = stat.executeQuery(QUERY);
                 ){
                     while(rc.next()) {
-                        if (persona.getSigno().equals(rc.getString("Signo"))) {
+                        if (persona.getNombre().equals(rc.getString("Nombre"))) {
                             codigo.setText(rc.getString("codigo"));
                             cedula.setText(rc.getString("cedula"));
                             fecha.setText(rc.getString("FechaN"));
-                            nombre.setText(rc.getString("Nombre"));
+                            sig.setSelectedItem(rc.getString("Signo"));
                             data = false;
                             break;
                         }
@@ -211,9 +211,9 @@ public class datos {
     }
     public static void conectar(){
         try{
-            final String DB_URL="jdbc:mysql://localhost/prueba";
+            final String DB_URL="jdbc:mysql://localhost/PRUEBA1";
             final String USER="root";
-            final String PASS="root_bas3";
+            final String PASS="";
             Connection conn = DriverManager.getConnection(DB_URL,USER,PASS); //Esencial para la conección
             Statement stmt= conn.createStatement();
 
@@ -222,7 +222,7 @@ public class datos {
         }
     }
     public static void main(String[] args) {
-        JFrame frame = new JFrame("datos");
+        JFrame frame = new JFrame("DATOS1");
         frame.setContentPane(new datos().datos);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();

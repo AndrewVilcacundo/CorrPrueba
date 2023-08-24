@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1678f67-9a5a-4c4c-bf37-d16f8392f6d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/correccionPruebaa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/correccionPruebaa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/correccionPruebaa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datos.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/datos.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2USMeEFaLH4gF8PhzSq8esfqnwx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,17 +36,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ANDREW/Desktop/mysql-connector-j-8.0.33.zip",
+    "last_opened_file_path": "C:/Users/NITRO/Desktop/Importante JAVA/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/ANDREW/IdeaProjects/correccionPruebaa/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.build",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,6 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692928623186</updated>
       <workItem from="1692928624208" duration="1746000" />
+      <workItem from="1692899354257" duration="1298000" />
+      <workItem from="1692901898289" duration="3112000" />
     </task>
     <servers />
   </component>
