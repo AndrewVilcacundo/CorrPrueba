@@ -1,5 +1,5 @@
 # Correccion Prueba
-Melani Barrera;
-Brandon Sandoval;
-Andrew Vilcacundo;
-Washington Villares
+Melani Barrera <br>
+Brandon Sandoval <br>
+Andrew Vilcacundo <br>
+Washington Villare
