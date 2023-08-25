@@ -8,6 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="java" level="project" />
-    <orderEntry type="library" name="mysql-connector-j-8.1.06" level="application" />
+    <orderEntry type="library" name="mssql-jdbc-12.4.0.jre11" level="application" />
+    <orderEntry type="library" name="mssql-jdbc-12.4.0.jre111" level="application" />
   </component>
 </module>

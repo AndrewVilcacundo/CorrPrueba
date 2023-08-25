@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1678f67-9a5a-4c4c-bf37-d16f8392f6d4" name="Changes" comment="">
+    <list default="true" id="d1678f67-9a5a-4c4c-bf37-d16f8392f6d4" name="Changes" comment="Ingreso a la base de datos y actualizacion de botones">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Forma_1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Forma_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/correccionPruebaa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/correccionPruebaa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datos.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/datos.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datos.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registro.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +42,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/NITRO/Desktop/Importante JAVA/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar",
+    "last_opened_file_path": "C:/Users/NITRO/Desktop/sqljdbc_12.4/enu/jars/mssql-jdbc-12.4.0.jre11.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/ANDREW/IdeaProjects/correccionPruebaa/src/Main.java",
     "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.build",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,11 +72,35 @@
       <updated>1692928623186</updated>
       <workItem from="1692928624208" duration="1746000" />
       <workItem from="1692899354257" duration="1298000" />
-      <workItem from="1692901898289" duration="3112000" />
+      <workItem from="1692901898289" duration="4347000" />
+      <workItem from="1692940471898" duration="618000" />
+      <workItem from="1692947769740" duration="3763000" />
     </task>
+    <task id="LOCAL-00001" summary="Ingreso a la base de datos y actualizacion de botones">
+      <created>1692905636703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692905636703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ingreso a la base de datos y actualizacion de botones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ingreso a la base de datos y actualizacion de botones" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
