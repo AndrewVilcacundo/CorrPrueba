@@ -1,9 +1,9 @@
 # Correccion Prueba <br>
-**INTEGRANTES**
-Melani Barrera <br>
-Brandon Sandoval <br>
-Andrew Vilcacundo <br>
-Washington Villares <br>
+**INTEGRANTES** <br>
+1. Melani Barrera <br>
+2. Brandon Sandoval <br>
+3. Andrew Vilcacundo <br>
+4. Washington Villares <br>
 
 **BUSCAR POR CODIGO** <br>
 ![Codigo](https://github.com/AndrewVilcacundo/CorrPrueba/assets/117743538/7d8c56ff-f14a-422a-89fd-f1bccabeabde)
