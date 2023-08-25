@@ -1,14 +1,12 @@
-// Librerias
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
 
-// Clase Pública
+
 public class Forma_1 {
 
-    /***************************************************************************************************************************************/
-    // Componentes
+
     private JPanel Fondo;
     private JPanel Caja;
     private JLabel Texto_Titulo;
@@ -30,11 +28,7 @@ public class Forma_1 {
     private JButton Boton_Ingresar;
     private JButton Boton_Limpiar;
 
-    /***************************************************************************************************************************************/
 
-
-    /***************************************************************************************************************************************/
-    // Variables
     static final String DB_URL = "jdbc:sqlserver://LAPTOP-KR34L9MD\\SQLEXPRESS:55395;database=prueba;encrypt=true;trustServerCertificate=true;";
     static final String USER="andreww";
     static final String PASS="123";
@@ -46,8 +40,6 @@ public class Forma_1 {
     static String QUERY_UPDATE;
 
 
-    /***************************************************************************************************************************************/
-    // Main
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Forma_1");
@@ -58,12 +50,7 @@ public class Forma_1 {
     }
 
 
-    /***************************************************************************************************************************************/
 
-
-    /***************************************************************************************************************************************/
-    // Funciones
-    // Funcion Crear
     private void Funcion_Insertar(String QUERY_INSERT){
         try (
                 Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
@@ -146,8 +133,6 @@ public class Forma_1 {
         }
     }
 
-    /***************************************************************************************************************************************/
-    // Funcion Mensaje Insertar
     private void Texto_Insertar(){
         System.out.println("\n*******************");
         System.out.println("Elemento Insertado");
@@ -179,10 +164,6 @@ public class Forma_1 {
         System.out.println("********************");
     }
 
-    /***************************************************************************************************************************************/
-
-    /***************************************************************************************************************************************/
-    // Lógica
     public Forma_1() {
         buscarPorCódigoButton.addActionListener(new ActionListener() {
             @Override
